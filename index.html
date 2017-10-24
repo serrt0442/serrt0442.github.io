@@ -1,61 +1,138 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
+<html>
+<body background="https://ubistatic19-a.akamaihd.net/resource/en-gb/game/forhonor/fh-game/fh_maps-overwatch_ncsa.jpg">
+<h1>Hello world!</h1>
+<p>"Best For Honor Website I Ever Went on" - 1Terrain </p>
+<p><a href="https://www.w3schools.com"><img src="https://78.media.tumblr.com/71564dcc059d69777dbd084844f5822b/tumblr_o8tvd0yPEp1s7dhyjo1_500.gif" width="307" height="150"> 
+
+<img src="https://78.media.tumblr.com/9281aeed97f5368b3cb7c6ecf14931b9/tumblr_o8tvd0yPEp1s7dhyjo3_500.gif" width="307" height="150"> 
+
+<img src="https://78.media.tumblr.com/3af0e334e8dc9f77adf1f559b82d045a/tumblr_o8tvd0yPEp1s7dhyjo2_500.gif" width="307" height="150"> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p> 
+
+
+
+</div></a></p>
+</body>
+
 
 <html>
 <head>
 <style>
-div.scrollmenu {
-    background-color: #333;
-    overflow: auto;
-    white-space: nowrap;
+body {font-family: "Lato", sans-serif;}
+
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
 }
 
-div.scrollmenu a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
 }
 
-div.scrollmenu a:hover {
-    background-color: #777;
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
 }
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+/* Style the close button */
+.topright {
+    float: right;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.topright:hover {color: red;}
 </style>
 </head>
 <body>
 
-<div class="scrollmenu">
-  <a href="#home">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
-  <a href="#support">Support</a>
-  <a href="#blog">Blog</a>
-  <a href="#tools">Tools</a>  
-  <a href="#base">Base</a>
-  <a href="#custom">Custom</a>
-  <a href="#more">More</a>
-  <a href="#logo">Logo</a>
-  <a href="#friends">Friends</a>
-  <a href="#partners">Partners</a>
-  <a href="#people">People</a>
-  <a href="#work">Work</a>
+
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Home')" id="defaultOpen">Home</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
 </div>
+
+<div id="Home" class="tabcontent">
+  <span onclick="this.parentElement.style.display='none'" class="topright">x</span>
+
+  <h3><font size="5">About For Honor     <img src="https://78.media.tumblr.com/4a237e2e3f1eafc7d77b64770b4e4d98/tumblr_inline_ol8dc6kKzZ1t73mc4_540.png" width="150" height="150"> <img src="https://78.media.tumblr.com/eea9dd23aea3f348e3ae9f0e96b159b2/tumblr_inline_ol8dc6iaPt1t73mc4_540.png" width="150" height="150">    <img src="https://78.media.tumblr.com/8e228300b78a3fae5cf797eae4b86e85/tumblr_inline_ol8dc7fx4d1t73mc4_540.png" width="150" height="150">               </h3>
+  
+  <p><b> <font size="4" color="white" face="arial">For Honor is a competitive third-person melee fighting game mixing speed, strategy, and team play with visceral close range combat in multiplayer action. Experience the chaos, fury, and brutality of battle where you and your friends cut a bloody trail of carnage as brutal Vikings, deadly Knights, and cold-blooded Samurai.
+
+The innovative Art of Battle system lets you feel the power of every strike, the strength of every impact, and the weight of the weapon in your hand. It is meant to deliver a feeling of really dueling without the sacrifice of accessibility and simplicity. The system was built using motion capture by real martial artists and professional stuntmen to give the battles realism not otherwise possible. Players can easily switch between three different stances in order to block an attack or strike an enemy. Watching the enemy closely to see which stance they switch to is key to defense and offense. This give the players a chance to plan their next move and ideally the next few as well. Players can also shift stances mid-swing and feint, in an attempt to trick opponents into shifting their guard.
+
+There are three playable factions in For Honor and each one presents the story from their own point-of-view. Play through each one for a completely unique experience. The For Honor Story Campaign mode can be played solo or in 2 player co-op. Players will be thrust into the war raging with the other two factions. There is also a competitive multiplayer online mode that pits players against each other.</font></p>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <span onclick="this.parentElement.style.display='none'" class="topright">x</span>
+  <h3>Paris</h3>
+  <p>Paris is the capital of France.</p> 
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <span onclick="this.parentElement.style.display='none'" class="topright">x</span>
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+     
 </body>
-</html>
-
-<html>
-<body>
-
-<h1>For Honor </h1>
-
-<p>this website has good memes.</p>
-
-</body>
-</html>
-
-<img src="http://cdn.windowsreport.com/wp-content/uploads/2017/02/for-honor-guard-break.jpg" alt="http://windowsreport.com/for-honor-guard-break-issues/" width="720" height="437">
-
-
-
+</html> 
