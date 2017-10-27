@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+
+<h1>Attribute</h1>
+
+<p>All HTML elements can have attributes,
+Attributes provide additional information about an element,
+Attributes are always specified in the start tag,
+Attributes usually come in name/value pairs like: name="value"
+<p>
+
+<p>for example use this for links<p>
+
+< a > href="https://www.w3schools.com" >This is a link< /a >
+
+<p>for example use this for pictures<p>
+
+< img src="img_girl.jpg" >
+
+<p>this is img in action <img src="https://media4.s-nbcnews.com/j/msnbc/components/video/201609/a_ov_pepe_160928.nbcnews-ux-1080-600.jpg" width="10%"> <p>
+
+
+
+<p>for example use this for styles<p>
+
+< p style="color:red">I am a paragraph< / p >
+
+<p style="color:red":>this is style in action</p>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
