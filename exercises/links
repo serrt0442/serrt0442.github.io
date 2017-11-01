@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color:green;">
+
+<h1>LINKS</h1>
+
+<p>HTML links are hyperlinks.
+
+You can click on a link and jump to another document.
+
+When you move the mouse over a link, the mouse arrow will turn into a little hand.</p>
+
+< p >he href attribute specifies the destination address (https://www.w3schools.com/html/) of the link.
+
+The link text is the visible part (Visit our HTML tutorial).
+
+Clicking on the link text will send you to the specified address.< /p >
+< p >This is another paragraph.< /p >
+
+<p>< a  href="https://www.w3schools.com/html/">Visit our HTML tutorial<  / a ></p>
+
+<p></p>
+<p></p>
+
+<p><a href="/exercises/"><img src="https://www.splcenter.org/sites/default/files/pepethefrog.png" width="30%"></a></p>
