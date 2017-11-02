@@ -1,7 +1,16 @@
-p {
+#id1 {
   color: red;
 }
 
 h1 {
   color:blue; font-size:50px;
 }
+
+#id2 {
+  color:pink;
+}
+
+.center {
+  text-align: center;
+}
+
